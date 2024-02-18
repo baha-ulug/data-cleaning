@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Data
+rnv_data.xlsx
+DSAssessment.docx
+
 # Distribution / packaging
 .Python
 build/
@@ -122,6 +126,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.rnv_venv
 env/
 venv/
 ENV/
