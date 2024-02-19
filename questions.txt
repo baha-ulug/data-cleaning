@@ -1,0 +1,77 @@
+
+1- 
+a)
+For the purpose of showing sales figures, returns, and cancellations, 
+I suggest using a tabular report style. 
+For users who need to quickly examine data across product categories and time periods, 
+this format is easy to understand, brief, and consume.
+
+Product Category: The category of the products sold.
+Sales Numbers: The total number of sales for each product category in the last week and last month.
+Returns: The total number of returns for each product category in the last week and last month.
+Cancellations: The total number of cancellations for each product category in the last week and last month.
+
+b)
+q1-  In what ways do you divide up your products into different categories? 
+    Is there a set system of classification you use, or should we create categories 
+    based on the characteristics of the products?
+
+q2-  Are aggregated totals adequate, 
+    or would you need a breakdown of sales, refunds, and cancellations by specific products 
+    within each product category in the report? Are there other relevant data points you want to include, 
+    like average sales price or percentage of returns/cancellations per category?
+
+q3-  How often do you need this report generated (e.g., daily, weekly, monthly)?
+
+q4-  Do you need the ability to sort or filter the data based on specific criteria, 
+    such as highest sales or most returns?
+
+q5- Who will be using this report (e.g., managers, analysts, executives, business units)?
+
+
+
+2-
+This prioritization considers both effort and business impact, aiming for optimal value delivery.
+High business impact heavily influences priority.
+
+No	Req.	    Effort	Business Impact (S/M/L/XL)	Priority(1-6)
+1	Backlog 1	45	    M	                        6
+2	Backlog 2	15	    XL                          2
+3	Backlog 3	3	    S	                        4
+4	Backlog 4	5	    XL	                        1
+5	Backlog 5	40	    S	                        5
+6	Backlog 6	10	    L                           3	
+
+
+*Priority of Backlog 4 is 1. Because it is the top priority due to its strong business impact, 
+even with little effort. Taking care of urgent requirements first maximizes value.
+
+*Similar to Backlog 4, Backlog 2's high business impact outweighs slightly higher effort, 
+making it crucial to address early.
+
+*From the Same Approach I decided the priority of Backlog 6 is 3. 
+Despite the moderate effort required, the lesser business impact indicates that 
+it may be handled effectively without impeding other important tasks.
+
+*Priority value of Backlog 3 is assigned as 4. 
+Its low effort and positive business impact make it a good candidate 
+for quick wins that can boost progress
+
+
+
+3- 
+
+1-  Firstly, I ask the user for the report link to verify if the data is up-to-date. 
+    I check the validity of the report through this link.
+
+2-  Check for any error messages or warnings related to data processing or report generation.
+
+3-  I review the dataset to understand its structure, 
+    including the columns, data types, and any relevant metadata. And compare the dataset to historical data 
+    to identify any anomalies.
+
+4-  I examine the query or process used to generate the dataset to ensure 
+    there are no errors or discrepancies in the data extraction or transformation process.
+
+5-  Map the data journey from source to report generation, identifying all transformation steps.
+    And I attempt to replicate the error using the same data and processing steps.
